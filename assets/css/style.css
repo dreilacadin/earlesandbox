@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Dancing Script', cursive;
+	/*width: 100%;*/
+	/*height: 100%;*/
+}
+
+@font-face {
+	font-family: 'Dancing Script';
+	src: url("../fonts/DancingScript-Bold.ttf");
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-image: url("../images/foots.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.nav{
+	position: fixed;
+	height: 330px;
+	width: 200px;
+	float: left;
+	border-radius: 15px;
+	background-color: rgba(255, 204, 255, 0.3);
+	margin: 0 auto;
+	z-index: 1;
+}
+
+ul > li {
+	text-decoration: none;
+	font-weight: none;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+	border-radius: 15px;
+	border: 3px solid #333;
+	background-color: rgba(207, 207, 207, 0.6);
+	margin-left: 10px;	
+	padding: 0px 35px 0px 35px;
+}	
+
+
+#titlehead{
+	background-color: rgba(255, 179, 217, 0.4);
+	text-align: center;
+	margin: 20px auto;
+	width: 900px;
+	font-size: 40px;
+	border-radius: 15px;
+	height: 120px;
+	padding: 25px;
+	border: 8px dotted rgba(179, 204, 255, 0.7);
+	/*color: rgb(241, 255, 33 );*/
+}
+
+.maincontainer:after{
+	clear: both;
+	content: " ";
+	display: block
+}
+
+#directory{
+	font-size: 20px;
+}
+
+ul > li:hover{
+	background-color: rgba(217, 217, 217, 1);
+}
+
+.denmarkcontainer{
+	width: 800px;
+	height: 500px;
+	background-color: rgba(255, 179, 217, 0.4);
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 15px;
+	border: 8px dotted rgba(179, 209, 255, 0.7);
+}
+
+.denmarkdescription{
+	text-align: justify;
+	padding: 25px;
+	font-size: 20px;
+}	
+
+.citycon:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.citycon{
+	/*background-color: gray;*/
+	margin: 20px auto;
+	padding: 20px auto;
+}
+
+.cityvisited{
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+	font-size: 40px;
+	/*background-color: rgba(255, 179, 217, 0.4);*/
+	/*border-radius: 15px;*/
+	/*border: 8px dotted rgba(179, 209, 255, 0.7);*/
+}
+
+.civist{
+	border-radius: 15px;
+	background-color: rgba(255, 179, 217, 0.4);
+}
+
+
+.coppencontainer{
+	width: 300px;
+	height: 600px;
+	background-color: rgba(255, 179, 217, 0.4);
+	text-align: center;
+	margin: 20px 60px 20px 60px;
+	border-radius: 15px;
+	border: 8px dotted rgba(179, 209, 255, 0.7);
+	float: left;
+	/*overflow: scroll;*/
+}
+
+.coppencontainer:hover{
+	background-color: rgba(255, 179, 217, 0.8);
+}	
+
+.coppendescrip{
+	text-align: justify;
+	margin: 10px auto;
+	padding: 25px;
+	font-size: 20px;
+}
+
+.contain{
+	height: 500px;
+	/*width: 30%;*/
+}
+
+
+.aarhuscontainer{
+	width: 300px;
+	background-color: rgba(255, 179, 217, 0.4);
+	text-align: center;
+	margin: 20px 60px 20px 60px;;
+	border-radius: 15px;
+	border: 8px dotted rgba(179, 209, 255, 0.7);
+	float: left;
+}
+
+.aarhuscontainer:hover{
+	background-color: rgba(255, 179, 217, 0.8);
+}
+
+
+.descrip{
+	text-align: justify;
+	margin: 5px;
+	padding: 15px;
+	font-size: 20px;
+
+}
+
+h2{
+	margin: 10px auto;
+	font-size: 35px;
+	color: white;
+}
+
+.maincars{
+	width: 700px;
+	height: 400px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.mainimages{
+	height: 100%;
+}
+
+
+.maincarousel{
+	font-size: 40px;
+	color: black;
+	background-color: rgba(255, 179, 217, 0.4);
+	border-radius: 25px;
+}
+
+.maindescrip{
+	font-size: 30px;
+	color: white;
+}
+
+.skagencontainer{
+	width: 300px;
+	background-color: rgba(255, 179, 217, 0.4);
+	text-align: center;
+	margin: 20px 60px 20px 60px;
+	border-radius: 15px;
+	border: 8px dotted rgba(179, 209, 255, 0.7);
+	float: left;
+}
+
+.skagencontainer:hover{
+	background-color: rgba(255, 179, 217, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile Query*/
+@media only screen and  (max-width: 400px){
+	
+
+	.maincars{
+		width: 60em;
+		height: 90vh;
+		text-align: center;
+	/*margin: .2em .2em .2em 0.2em;*/
+	}
+	
+	.denmarkcontainer{
+		width: 55.95em;
+		margin: .1em .2em 0em .1em;
+		text-align: center;	
+	}
+
+	.cityvisited{
+		width: 20em;
+		text-align: center;
+		margin: 0.5em auto;
+	}
+
+	.citycon{
+		width: 100vw;
+	}
+
+
+	.coppencontainer,
+	.aarhuscontainer,
+	.skagencontainer{
+		margin: 10px 10px 10px 10px;
+		float: left;
+		width: 30vw;
+	}
+}
+
+
+/*Tablet Query
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+}
+
+
+/*Desktop & Laptop Query*/
+@media only screen and (min-width: 961px){
+
+}
+
